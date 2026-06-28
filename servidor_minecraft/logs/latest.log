@@ -1,0 +1,579 @@
+[19:06:24] [main/INFO]: [STDOUT]: [itemphysic] Patched net.minecraft.entity.item.EntityItem ...
+[19:06:25] [main/INFO]: [STDOUT]: [itemphysic] Patched net.minecraft.entity.item.EntityItem ...
+[19:06:27] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[19:06:39] [Server thread/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.ConfigHandler$ConfigContainer.lambda$new$1(ConfigHandler.java:46)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.ConfigHandler$ConfigContainer.<init>(ConfigHandler.java:55)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.ConfigHandler.registerConfig(ConfigHandler.java:177)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.ConfigHandler.injectConfig(ConfigHandler.java:168)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.LLibrary.onPreInit(LLibrary.java:46)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:647)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:253)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:231)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:148)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:647)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:100)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:442)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Thread.java:750)
+[19:06:39] [Server thread/INFO]: [STDERR]: Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Float
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.EntryProperty$DoubleEntryProperty.createForgeConfigurationProperty(EntryProperty.java:153)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.EntryProperty.<init>(EntryProperty.java:20)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	at net.ilexiconn.llibrary.server.config.EntryProperty$DoubleEntryProperty.<init>(EntryProperty.java:146)
+[19:06:39] [Server thread/INFO]: [STDERR]: 	... 48 more
+[19:06:39] [Server thread/INFO]: [STDOUT]: Config: registered additional tree block ID Block{minecraft:cactus}
+[19:06:39] [Server thread/INFO]: [STDOUT]: Config: registered additional tree block ID Block{minecraft:brown_mushroom_block}
+[19:06:39] [Server thread/INFO]: [STDOUT]: Config: registered additional tree block ID Block{minecraft:red_mushroom_block}
+[19:06:39] [Server thread/INFO]: [STDOUT]: Config: registered additional worthless block ID Block{minecraft:torch}
+[19:06:39] [Server thread/INFO]: [STDOUT]: Config: registered additional worthless block ID Block{minecraft:snow}
+[19:06:39] [Server thread/INFO]: [STDOUT]: Config: registered additional worthless block ID Block{minecraft:chest}
+[19:06:39] [Server thread/INFO]: [STDOUT]: /workspaces/pokemonpkp/servidor_minecraft/config/minions_Advanced.cfg parsed, registered 27 evil Deeds.
+[19:06:45] [Server thread/INFO]: Loading properties
+[19:06:45] [Server thread/INFO]: Default game type: SURVIVAL
+[19:06:45] [Server thread/INFO]: Generating keypair
+[19:06:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:06:45] [Server thread/INFO]: Using epoll channel type
+[19:06:46] [Server thread/WARN]: PriceRange(10, 1) invalid, 1 smaller than 10
+[19:06:46] [Server thread/WARN]: PriceRange(9, 1) invalid, 1 smaller than 9
+[19:06:46] [Server thread/WARN]: PriceRange(3, 2) invalid, 2 smaller than 3
+[19:06:47] [Server thread/WARN]: PriceRange(-4, -8) invalid, -8 smaller than -4
+[19:06:47] [Server thread/INFO]: Preparing level "world"
+[19:06:48] [Server thread/WARN]: Couldn't find resource table dmonsters:zombiechicken
+[19:06:48] [Server thread/INFO]: Preparing start region for level 0
+[19:06:49] [Server thread/INFO]: Preparing spawn area: 19%
+[19:06:50] [Server thread/INFO]: Preparing spawn area: 98%
+[19:06:50] [Server thread/INFO]: Done (3.246s)! For help, type "help" or "?"
+[19:07:09] [User Authenticator #1/INFO]: UUID of player ZzElegantzZ is edd5f677-f922-4522-a3d8-cc1bc594eab1
+[19:07:10] [Server thread/INFO]: ZzElegantzZ[/100.72.217.86:55357] logged in with entity id 312 at (254.5376839491364, 64.0, 199.8993913173539)
+[19:07:10] [Server thread/INFO]: ZzElegantzZ joined the game
+[19:07:10] [Server thread/INFO]: [STDOUT]: New Minionlist prepared for user ZzElegantzZ
+[19:07:10] [Thread-18/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[19:07:12] [User Authenticator #2/INFO]: UUID of player rekudox is 2e5c5be0-6e0c-48e7-a47d-e38e9967e578
+[19:07:12] [Server thread/INFO]: rekudox lost connection: TextComponent{text='Mod rejections [FMLMod:antiqueatlas{4.4.6}, FMLMod:baubles{1.4.6}]', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:07:12] [Server thread/INFO]: rekudox left the game
+[19:07:26] [User Authenticator #3/INFO]: UUID of player rekudox is 2e5c5be0-6e0c-48e7-a47d-e38e9967e578
+[19:07:27] [Server thread/INFO]: rekudox lost connection: TextComponent{text='Mod rejections [FMLMod:antiqueatlas{4.4.6}, FMLMod:baubles{1.4.6}]', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:07:27] [Server thread/INFO]: rekudox left the game
+[19:09:37] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Taking Inventory]
+[19:11:08] [User Authenticator #4/INFO]: UUID of player rekudox is 2e5c5be0-6e0c-48e7-a47d-e38e9967e578
+[19:11:09] [Server thread/INFO]: rekudox[/100.114.153.88:63320] logged in with entity id 2086 at (350.97329004846534, 62.56397330731373, 111.90014431402882)
+[19:11:09] [Server thread/INFO]: rekudox joined the game
+[19:11:09] [Server thread/INFO]: [STDOUT]: New Minionlist prepared for user rekudox
+[19:11:09] [Thread-20/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[19:14:09] [Server thread/INFO]: Teleported ZzElegantzZ to ZzElegantzZ
+[19:14:09] [Server thread/INFO]: Teleported rekudox to ZzElegantzZ
+[19:14:09] [Server thread/WARN]: rekudox moved too quickly! -238.97623765907244,1.0,60.123823624821625
+[19:14:19] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Getting Wood]
+[19:14:43] [Server thread/INFO]: rekudox has just earned the achievement [Getting Wood]
+[19:15:24] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Benchmarking]
+[19:16:19] [Server thread/INFO]: rekudox has just earned the achievement [Benchmarking]
+[19:16:35] [Server thread/INFO]: rekudox has just earned the achievement [Time to Mine!]
+[19:16:56] [Server thread/INFO]: rekudox has just earned the achievement [Getting an Upgrade]
+[19:17:35] [Server thread/INFO]: rekudox has just earned the achievement [Time to Strike!]
+[19:21:01] [Server thread/WARN]: ZzElegantzZ moved too quickly! -10.091357916055586,-1.2491870787446828,0.7873594679227267
+[19:21:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7641ms behind, skipping 152 tick(s)
+[19:21:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4327ms behind, skipping 86 tick(s)
+[19:21:34] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Time to Mine!]
+[19:22:09] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Getting an Upgrade]
+[19:23:37] [Server thread/INFO]: rekudox has just earned the achievement [Monster Hunter]
+[19:25:01] [Server thread/INFO]: rekudox has just earned the achievement [Cow Tipper]
+[19:26:18] [Server thread/INFO]: rekudox has just earned the achievement [Hot Topic]
+[19:28:49] [Server thread/INFO]: rekudox has just earned the achievement [Those who don't believe in magic will never find it!]
+[19:29:12] [Server thread/INFO]: ZzElegantzZ was slain by entity.hauntedcow.name
+[19:29:26] [Server thread/WARN]: ZzElegantzZ was kicked for floating too long!
+[19:29:26] [Server thread/INFO]: ZzElegantzZ lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:29:26] [Server thread/INFO]: ZzElegantzZ left the game
+[19:29:36] [User Authenticator #5/INFO]: UUID of player ZzElegantzZ is edd5f677-f922-4522-a3d8-cc1bc594eab1
+[19:29:36] [Server thread/INFO]: ZzElegantzZ[/100.72.217.86:64642] logged in with entity id 21302 at (205.41167021640248, 77.3583363361454, 207.5285470705297)
+[19:29:36] [Server thread/INFO]: ZzElegantzZ joined the game
+[19:29:36] [Thread-22/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[19:31:24] [Server thread/INFO]: rekudox was slain by Zombie
+[19:31:27] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Those who don't believe in magic will never find it!]
+[19:31:34] [Server thread/WARN]: rekudox moved wrongly!
+[19:31:38] [Server thread/INFO]: rekudox got revenge on Zombie
+[19:32:13] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Look into my eyes...]
+[19:32:27] [Server thread/INFO]: rekudox was blown up by Creeper
+[19:32:37] [Server thread/WARN]: rekudox moved wrongly!
+[19:33:16] [Server thread/INFO]: rekudox was shot by Skeleton
+[19:33:24] [Server thread/WARN]: rekudox moved wrongly!
+[19:33:27] [Server thread/INFO]: rekudox got revenge on Skeleton
+[19:33:42] [Server thread/INFO]: rekudox was blown up by Creeper
+[19:33:59] [Server thread/WARN]: rekudox moved wrongly!
+[19:34:48] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[19:35:09] [Server thread/INFO]: ZzElegantzZ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:35:09] [Server thread/INFO]: ZzElegantzZ left the game
+[19:35:13] [User Authenticator #6/INFO]: UUID of player ZzElegantzZ is edd5f677-f922-4522-a3d8-cc1bc594eab1
+[19:35:14] [Server thread/INFO]: ZzElegantzZ[/100.72.217.86:61737] logged in with entity id 28560 at (-799.1496490699557, 67.0, 321.70040122814316)
+[19:35:14] [Server thread/INFO]: ZzElegantzZ joined the game
+[19:35:14] [Thread-24/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[19:35:45] [Server thread/INFO]: rekudox has just earned the achievement [In Tatters!]
+[19:40:10] [Server thread/INFO]: ZzElegantzZ fell out of the world
+[19:40:10] [Server thread/INFO]: Killed ZzElegantzZ
+[19:40:20] [Server thread/INFO]: ZzElegantzZ fell out of the world
+[19:40:20] [Server thread/INFO]: Killed ZzElegantzZ
+[19:40:26] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[19:40:56] [Server thread/INFO]: Teleported ZzElegantzZ to rekudox
+[19:40:56] [Server thread/INFO]: Teleported rekudox to rekudox
+[19:41:09] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [In Tatters!]
+[19:53:21] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Time to Strike!]
+[19:53:44] [Server thread/INFO]: rekudox has just earned the achievement [Acquire Hardware]
+[20:03:48] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Cow Tipper]
+[20:04:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7615ms behind, skipping 152 tick(s)
+[20:04:17] [Server thread/WARN]: rekudox moved too quickly! 10.05763595577696,0.2468000194787976,1.4720696585253563
+[20:04:17] [Server thread/WARN]: ZzElegantzZ moved too quickly! 8.031470593882887,-1.2046003784434305,5.960128364172363
+[20:06:05] [Server thread/WARN]: Tried to over-fill a container
+[20:11:48] [Server thread/WARN]: rekudox moved wrongly!
+[20:22:06] [Server thread/INFO]: rekudox was blown up by LV1 BatCreeper
+[20:22:15] [Server thread/WARN]: rekudox moved wrongly!
+[20:22:22] [Server thread/WARN]: ZzElegantzZ moved too quickly! 35.51865642072221,0.0,-24.172612217384312
+[20:22:22] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[20:22:23] [Server thread/WARN]: ZzElegantzZ moved too quickly! 35.64064073730083,0.0,-24.380810642028905
+[20:22:24] [Server thread/WARN]: ZzElegantzZ moved too quickly! 6.3957928836612155,-8.0,-3.9011625755253476
+[20:22:24] [Server thread/WARN]: rekudox moved too quickly! 7.1249036886418935,-8.0,-3.1856837983050923
+[20:22:25] [Server thread/WARN]: ZzElegantzZ moved too quickly! 6.957337218453517,-9.121600046157823,-4.199999988079071
+[20:22:26] [Server thread/WARN]: ZzElegantzZ moved too quickly! 6.957337218453517,-8.0,-4.199999988079071
+[20:22:27] [Server thread/WARN]: ZzElegantzZ moved too quickly! 6.957337218453517,-8.0,-4.199999988079071
+[20:22:28] [Server thread/WARN]: rekudox moved too quickly! 6.499649717534567,-9.121600046157823,-4.092214220675146
+[20:22:28] [Server thread/WARN]: ZzElegantzZ moved too quickly! 36.06998988563112,0.0,-24.316932554373523
+[20:22:29] [Server thread/WARN]: rekudox moved too quickly! 36.19999998807907,-0.9663680416412319,-25.19999998807907
+[20:22:30] [Server thread/WARN]: rekudox moved too quickly! 36.19999998807907,-0.7358406727282727,-24.973262105246874
+[20:22:31] [Server thread/WARN]: rekudox moved too quickly! 35.384103881184615,-0.9663680416412319,-24.453394532960488
+[20:22:32] [Server thread/WARN]: ZzElegantzZ moved too quickly! 7.199999988079071,-8.0,-3.0525125709147574
+[20:22:32] [Server thread/WARN]: rekudox moved too quickly! 6.909129415232201,-8.0,-4.060781229964732
+[20:23:08] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Monster Hunter]
+[20:26:56] [Server thread/WARN]: rekudox moved too quickly! -11.11814924888256,-32.0,-30.14863724933116
+[20:26:56] [Server thread/WARN]: rekudox moved wrongly!
+[20:26:57] [Server thread/WARN]: rekudox moved too quickly! -10.53191612741739,-33.024424088213664,-30.22172852475262
+[20:26:58] [Server thread/WARN]: rekudox moved too quickly! -10.9132812089357,-32.0,-30.106939679234415
+[20:26:59] [Server thread/WARN]: rekudox moved wrongly!
+[20:27:00] [Server thread/WARN]: rekudox moved too quickly! -11.154947781973533,-32.0,-31.07299720653384
+[20:27:01] [Server thread/WARN]: rekudox moved too quickly! -11.049761097365945,-32.0,-31.073583404885653
+[20:38:10] [Server thread/INFO]: [STDOUT]: help
+[20:38:11] [Server thread/INFO]: [STDOUT]: help
+[20:38:12] [Server thread/INFO]: [STDOUT]: help
+[20:38:13] [Server thread/INFO]: [STDOUT]: help
+[20:38:14] [Server thread/INFO]: [STDOUT]: help
+[20:38:15] [Server thread/INFO]: [STDOUT]: help
+[20:38:50] [Server thread/WARN]: rekudox moved wrongly!
+[20:38:52] [Server thread/INFO]: rekudox was incinerated by a dragon
+[20:38:52] [Server thread/WARN]: rekudox moved wrongly!
+[20:41:49] [Server thread/WARN]: rekudox moved wrongly!
+[20:41:50] [Server thread/INFO]: rekudox fell from a high place
+[20:44:08] [Server thread/INFO]: ZzElegantzZ burned to death
+[20:44:26] [Server thread/WARN]: rekudox moved wrongly!
+[20:44:26] [Server thread/INFO]: rekudox tried to swim in lava
+[20:45:22] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[20:45:22] [Server thread/INFO]: ZzElegantzZ tried to swim in lava
+[20:47:18] [Server thread/WARN]: rekudox moved wrongly!
+[20:47:18] [Server thread/INFO]: rekudox tried to swim in lava
+[20:47:41] [Server thread/INFO]: Entity 'kudox' cannot be found
+[20:47:52] [Server thread/INFO]: rekudox fell out of the world
+[20:47:52] [Server thread/INFO]: Killed rekudox
+[20:47:56] [Server thread/WARN]: rekudox moved wrongly!
+[20:48:11] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[20:48:21] [Server thread/INFO]: Teleported rekudox to ZzElegantzZ
+[20:48:21] [Server thread/INFO]: Teleported ZzElegantzZ to ZzElegantzZ
+[20:48:21] [Server thread/WARN]: rekudox moved too quickly! -445.1900509207403,-0.17675927506424216,166.4858848930695
+[20:48:23] [Server thread/INFO]: rekudox tried to swim in lava
+[20:48:56] [Server thread/INFO]: Set rekudox's game mode to Creative Mode
+[20:48:56] [Server thread/INFO]: Set ZzElegantzZ's game mode to Creative Mode
+[20:50:26] [Server thread/INFO]: Set rekudox's game mode to Survival Mode
+[20:50:26] [Server thread/INFO]: Set ZzElegantzZ's game mode to Survival Mode
+[20:50:29] [Server thread/WARN]: rekudox moved wrongly!
+[20:51:06] [Server thread/INFO]: Opped zzelegantzz
+[20:51:16] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[20:51:20] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[20:51:20] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Creative Mode]
+[20:52:02] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[20:52:21] [Server thread/INFO]: ZzElegantzZ fell out of the world
+[20:52:21] [Server thread/INFO]: [ZzElegantzZ: Killed ZzElegantzZ]
+[20:52:28] [Server thread/INFO]: ZzElegantzZ fell out of the world
+[20:52:28] [Server thread/INFO]: [ZzElegantzZ: Killed ZzElegantzZ]
+[20:54:16] [Server thread/WARN]: Wrong location! (0, 0) should be (-32, 20), EntityItem['item.item.icecrystal'/212314, l='world', x=0.00, y=0.10, z=0.00]
+[20:54:16] [Server thread/WARN]: Tried to add entity minecraft:item but it was marked as removed already
+[20:55:48] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to ZzElegantzZ]
+[20:55:48] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to rekudox]
+[20:57:37] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to ZzElegantzZ]
+[20:57:37] [Server thread/INFO]: [ZzElegantzZ: Teleported rekudox to ZzElegantzZ]
+[20:57:44] [Server thread/INFO]: ZzElegantzZ fell out of the world
+[20:57:44] [Server thread/INFO]: [ZzElegantzZ: Killed ZzElegantzZ]
+[20:57:50] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to ZzElegantzZ]
+[20:57:50] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to rekudox]
+[20:58:26] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:02:45] [Server thread/INFO]: rekudox lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:02:45] [Server thread/INFO]: rekudox left the game
+[21:10:52] [Server thread/INFO]: ZzElegantzZ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:10:52] [Server thread/INFO]: ZzElegantzZ left the game
+[21:11:51] [User Authenticator #7/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:11:51] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:64553] logged in with entity id 230314 at (255.5, 64.0, 201.5)
+[21:11:51] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:11:51] [Server thread/INFO]: [STDOUT]: New Minionlist prepared for user XxBrayan57Xx
+[21:11:51] [Thread-27/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:12:08] [User Authenticator #8/INFO]: UUID of player ZzElegantzZ is edd5f677-f922-4522-a3d8-cc1bc594eab1
+[21:12:08] [Server thread/INFO]: ZzElegantzZ[/100.72.217.86:50144] logged in with entity id 231189 at (-768.6082582666588, 71.0, 513.2300147159872)
+[21:12:08] [Server thread/INFO]: ZzElegantzZ joined the game
+[21:12:08] [Thread-29/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:12:17] [Server thread/INFO]: XxBrayan57Xx has just earned the achievement [Taking Inventory]
+[21:13:16] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to ZzElegantzZ]
+[21:13:16] [Server thread/INFO]: [ZzElegantzZ: Teleported XxBrayan57Xx to ZzElegantzZ]
+[21:16:05] [Server thread/INFO]: XxBrayan57Xx has just earned the achievement [Getting Wood]
+[21:18:51] [User Authenticator #9/INFO]: UUID of player rekudox is 2e5c5be0-6e0c-48e7-a47d-e38e9967e578
+[21:18:51] [Server thread/INFO]: rekudox[/100.114.153.88:64926] logged in with entity id 240098 at (-744.3000000119209, 72.0, 329.10787984097817)
+[21:18:51] [Server thread/INFO]: rekudox joined the game
+[21:18:51] [Thread-31/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:19:37] [Server thread/INFO]: XxBrayan57Xx was slain by Zombie
+[21:19:50] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to ZzElegantzZ]
+[21:19:50] [Server thread/INFO]: [ZzElegantzZ: Teleported rekudox to ZzElegantzZ]
+[21:19:50] [Server thread/INFO]: [ZzElegantzZ: Teleported XxBrayan57Xx to ZzElegantzZ]
+[21:20:28] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[21:20:37] [Server thread/INFO]: [ZzElegantzZ: Teleported ZzElegantzZ to ZzElegantzZ]
+[21:20:37] [Server thread/INFO]: [ZzElegantzZ: Teleported rekudox to ZzElegantzZ]
+[21:20:37] [Server thread/INFO]: [ZzElegantzZ: Teleported XxBrayan57Xx to ZzElegantzZ]
+[21:23:56] [Server thread/INFO]: XxBrayan57Xx was slain by entity.hauntedcow.name
+[21:24:13] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[21:24:43] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[21:25:51] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:26:54] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Creative Mode]
+[21:27:31] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:27:31] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[21:27:31] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[21:27:38] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Creative Mode]
+[21:29:27] [Server thread/INFO]: rekudox was slain by entity.hauntedcow.name
+[21:29:33] [Server thread/WARN]: rekudox moved wrongly!
+[21:29:35] [Server thread/INFO]: rekudox got revenge on entity.hauntedcow.name
+[21:33:23] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:33:23] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[21:33:23] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[21:33:42] [Server thread/INFO]: [ZzElegantzZ: Given [Apple] * 64 to ZzElegantzZ]
+[21:34:49] [Server thread/INFO]: [ZzElegantzZ: Given [Apple] * 64 to rekudox]
+[21:38:00] [Server thread/WARN]: Tried to over-fill a container
+[21:43:32] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[21:43:33] [Server thread/WARN]: ZzElegantzZ moved too quickly! 9.199999988079071,0.0,-9.802611363743154
+[21:43:34] [Server thread/WARN]: ZzElegantzZ moved too quickly! 9.199999988079071,0.0,-9.802611363743154
+[21:43:35] [Server thread/WARN]: ZzElegantzZ moved too quickly! 9.084216526160617,-1.0244240882136921,-10.643187850939285
+[21:44:47] [Server thread/INFO]: XxBrayan57Xx has just earned the achievement [Seabiscuit]
+[21:44:52] [Server thread/WARN]: XxBrayan57Xx was kicked for floating too long!
+[21:44:52] [Server thread/INFO]: XxBrayan57Xx lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:44:52] [Server thread/INFO]: XxBrayan57Xx left the game
+[21:45:03] [Server thread/INFO]: rekudox has just earned the achievement [DIAMONDS!]
+[21:45:07] [User Authenticator #10/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:45:07] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:55783] logged in with entity id 283896 at (-627.7829918325416, 66.20100004768372, 380.352272129968)
+[21:45:07] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:45:07] [Thread-33/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:45:17] [Server thread/WARN]: XxBrayan57Xx was kicked for floating too long!
+[21:45:17] [Server thread/INFO]: XxBrayan57Xx lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:45:17] [Server thread/INFO]: XxBrayan57Xx left the game
+[21:45:22] [User Authenticator #11/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:45:23] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:60578] logged in with entity id 284488 at (-628.9750408042364, 66.20100004768372, 377.368842128698)
+[21:45:23] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:45:23] [Thread-35/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:45:58] [Server thread/WARN]: ZzElegantzZ moved too quickly! 10.446616395103774,22.975575911786308,2.4663675170795614
+[21:45:59] [Server thread/WARN]: ZzElegantzZ moved too quickly! 10.446616395103774,24.0,2.4663675170795614
+[21:45:59] [Server thread/WARN]: ZzElegantzZ moved too quickly! -10.0,-24.0,-2.0
+[21:46:00] [Server thread/WARN]: ZzElegantzZ moved too quickly! -9.991367222741246,-24.0,-2.097619019448757
+[21:47:48] [Server thread/WARN]: ZzElegantzZ moved too quickly! 10.0,24.0,2.0
+[21:47:49] [Server thread/WARN]: ZzElegantzZ moved too quickly! 10.246932111909473,24.0,2.0348452060604814
+[21:47:50] [Server thread/WARN]: ZzElegantzZ moved too quickly! 9.814143320545554,23.695786582070255,1.8135693464428186
+[21:47:50] [Server thread/WARN]: ZzElegantzZ moved too quickly! -10.014143308624625,-24.0,-2.0135693345218897
+[21:48:43] [Server thread/WARN]: rekudox moved too quickly! -9.546819508817066,0.504799122994072,3.4599930724614865
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -7.452946987414975,-3.5510576895623984,-6.354201679117637
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -7.876825759776125,-3.5510576895623984,-6.782301301090911
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.29958734450895,-3.5510576895623984,-7.211882891958794
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.72175114441609,-3.5510576895623984,-7.642257454834919
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.143595081581566,-3.5510576895623984,-8.073056321222452
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.56526786657139,-2.5510576895623984,-8.504082223959301
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.98684907144434,-2.5510576895623984,-8.935229609320004
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.408381273622695,-2.5510576895623984,-9.36644199761065
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.829887255436233,-2.5510576895623984,-9.79768916767307
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.249835536362525,-2.5510576895623984,-10.230451964125109
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.65356271300027,-2.5510576895623984,-10.67778000556018
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.100351050817608,-2.5510576895623984,-11.086231539954724
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.466377191012612,-2.5510576895623984,-11.561156237588534
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.787875954456467,-2.5510576895623984,-11.877440274646801
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.042977051951766,-2.5510576895623984,-12.159591701846125
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.293935004788636,-2.5510576895623984,-12.41762969374031
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.526665818704942,-2.5510576895623984,-12.677649300647488
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.747761473423338,-2.5510576895623984,-12.940225001349006
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.962631386434964,-2.5510576895623984,-13.204168416876882
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -14.174170029187167,-2.5510576895623984,-13.468843669339037
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -14.383926175641932,-2.5510576895623984,-13.73391051315349
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -14.59272854386711,-2.5510576895623984,-13.999186889693021
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -7.774040238048428,1.0,-8.335703705025423
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -7.982059181672412,1.0,-8.601152189804054
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.189932007298921,1.0,-8.86663277481449
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.39408828372359,1.0,-9.134892198025284
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.583024422688254,1.0,-9.413384430890233
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.749765445101389,1.0,-9.704708948078576
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.90903780588144,1.0,-9.862794639731533
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.064313834730683,1.0,-9.949586892336129
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.217451506042039,1.0,-9.99823144714378
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.36944498486912,1.0,-10.02646392944331
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.520826229110526,1.0,-10.043774318716544
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.671879878831874,1.0,-10.055240513774493
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.822758239257041,1.0,-10.063579597028479
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.973542805874672,1.0,-10.070245425104076
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.124277185296023,1.0,-10.076015927694812
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.274984710549234,1.0,-10.081307359469463
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.425677866672459,2.0,-10.083511110359211
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.576245465975717,2.0,-10.088077378888954
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.702461534436111,2.0,-10.237967637797226
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.811023888051636,2.0,-10.469385004918422
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.910836213477069,2.0,-10.74423637429993
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.003176926887704,2.0,-11.04306730128934
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.088716892036928,2.0,-11.355416676525579
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.170617912383818,2.0,-11.674999503889978
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.250571805919776,2.0,-11.99845280726862
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.32948383072062,2.0,-12.32397712519355
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.407838372334027,2.0,-12.650609601710585
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.485894615808775,2.0,-12.977835031796019
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.563791245896937,2.5052007668631546,-13.30537773951363
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.609085209638238,2.913563591306385,-13.495884406811626
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.656299011453143,3.2289232540394295,-13.667382064461322
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.705234701470204,3.399999976158142,-13.821885590806403
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.755722461427695,3.3231679746627805,-13.9611602917671
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.807622886136755,3.1725465174951353,-14.08671705392004
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.863121069535737,2.9510576657205405,-14.186014735845674
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.921533861907733,2.661507766840785,-14.261685417582498
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.975353031918303,2.306592037049043,-14.31525980268043
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.024883392675065,2.0,-14.349105903640691
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.082259647170076,2.0,-14.239752254683879
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.122522188377616,2.0,-14.041399245871844
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.146968643473997,2.0,-13.795117817962023
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.158436735620057,2.0,-13.523165442102766
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.158446534914674,2.0,-13.2376017318349
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.15124602746755,2.0,-12.944805963987505
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.13997792862017,2.0,-12.648151686895346
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.126533342713515,2.0,-12.34943279843668
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.111924161975935,2.0,-12.049609177599677
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.096691829763813,2.0,-11.749194436493042
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.081126061622058,2.0,-11.448463398715774
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.06538187856222,2.0,-11.147563116896322
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.049542229236977,2.0,-10.846572275964263
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.103644048465299,2.0,-10.54182534623419
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.195170153034155,2.0,-10.235068608276606
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.306721246529037,2.0,-9.927236462007727
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.428987312342997,2.0,-9.61882888619283
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.55698674621135,2.0,-9.310113409500673
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.688053991014613,2.0,-9.001233181187956
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.820762760283628,2.442050676298436,-8.692264797567873
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.898030308259536,2.7897641525829044,-8.512572700236888
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.973195240997825,3.0468761802106172,-8.337954007797805
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.047226586500642,3.2169745748548593,-8.181858290790728
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.113247742322756,3.303505074755307,-8.042652126351925
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.17212541078186,3.309776966981758,-7.918508065327558
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.224632517026862,3.2389684908979177,-7.807796388515385
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.271458355725713,3.0941320276480866,-7.70906371228881
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.313217639880804,2.878199084140306,-7.621013909092369
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.35045857056366,2.593985079663838,-7.542491092338764
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.355673007283713,2.2441939429567554,-7.473947492747584
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.332326215864782,2.0,-7.414303359278335
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -13.031535347807562,2.0,-7.375943221267619
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.87058815143314,2.0,-7.35541747623671
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.50449831672438,2.0,-7.35926506106
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -12.0286407463459,2.0,-7.374095562810112
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.49404864914311,2.0,-7.396861570358396
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.928075697125223,2.0,-7.424732576383349
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.345360917415292,1.9231679985046384,-7.456193883839774
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.005587974017885,1.7725465413369932,-7.474897621080061
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.674613471227872,1.5510576895623984,-7.493575747224895
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.351501565268563,1.2615077906826428,-7.51244546133654
+[21:49:07] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.035408443091683,1.0,-7.53157176906268
+[21:49:08] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -8.474097464483748,1.0,-7.571611567626007
+[21:49:08] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -7.894332027037763,1.0,-7.616019022371404
+[21:49:08] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -7.0212048950820645,1.5052007668631546,-7.686081083411636
+[21:49:08] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -6.526070058911614,1.913563591306385,-7.7258681915838565
+[21:49:08] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -6.056566883151163,2.2289232540394295,-7.763648631870808
+[21:49:08] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! 5.980122022305295,-2.5586023636606967,7.756809932774331
+[21:49:26] [Server thread/WARN]: Horse moved wrongly!
+[21:49:26] [Server thread/WARN]: Horse moved wrongly!
+[21:49:29] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.26437615475993,3.0,-3.8579652822781725
+[21:49:29] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -9.76412636858754,3.0,-4.1633474365557674
+[21:49:29] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.285617569578108,3.0,-4.445259409353724
+[21:49:29] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -10.81782551791764,3.0,-4.7165582504266865
+[21:49:29] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.353890327191266,3.0,-4.986047451832178
+[21:49:29] [Server thread/WARN]: Horse (vehicle of rekudox) moved too quickly! -11.890082310944422,3.0,-5.258408328217541
+[21:49:59] [Server thread/WARN]: Horse moved wrongly!
+[21:49:59] [Server thread/WARN]: Horse moved wrongly!
+[21:51:42] [Server thread/INFO]: ZzElegantzZ was turned into gorgonzola by a gorgon
+[21:51:52] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[21:53:02] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:53:02] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[21:53:02] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[21:53:03] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[21:53:49] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[21:54:02] [Server thread/INFO]: ZzElegantzZ was turned to stone by a gorgon
+[21:54:12] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[21:54:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2105ms behind, skipping 42 tick(s)
+[21:54:48] [Server thread/WARN]: ZzElegantzZ moved too quickly! -2.7671286840961784,0.0,10.531428296228
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.1424104758757494,0.0,-10.17656930609462
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.17148325734433456,0.0,-10.66827128247678
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.20055608884422327,0.0,-11.159973392404481
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.22962894711486115,0.0,-11.651675573789703
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.2587018197100406,0.0,-12.143377793410423
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.2884759774867689,0.0,-12.635037490675018
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.3207283845179063,0.0,-13.126533887322239
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.3567585991074793,0.0,-13.617754494782844
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.39725982459958686,0.0,-14.108612792314375
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.4436484848679356,0.0,-14.598924887070098
+[21:54:48] [Server thread/WARN]: Horse (vehicle of XxBrayan57Xx) moved too quickly! 0.49563054378791094,0.0,-15.08866618710556
+[21:55:08] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:55:08] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[21:55:08] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[21:55:09] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[21:55:29] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Cannibal]
+[21:55:35] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[21:55:38] [Server thread/INFO]: XxBrayan57Xx suffocated in a wall
+[21:55:40] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[21:55:48] [Server thread/WARN]: XxBrayan57Xx was kicked for floating too long!
+[21:55:48] [Server thread/INFO]: XxBrayan57Xx lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:55:48] [Server thread/INFO]: XxBrayan57Xx left the game
+[21:55:52] [User Authenticator #12/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:55:52] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:50455] logged in with entity id 306461 at (-738.4632051820367, 85.23056036106348, 330.07924792026955)
+[21:55:52] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:55:52] [Thread-37/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:56:05] [Server thread/WARN]: XxBrayan57Xx was kicked for floating too long!
+[21:56:05] [Server thread/INFO]: XxBrayan57Xx lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:56:05] [Server thread/INFO]: XxBrayan57Xx left the game
+[21:56:08] [User Authenticator #13/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:56:09] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:50102] logged in with entity id 307015 at (-725.8767670277334, 87.83055994532108, 313.0912467990573)
+[21:56:09] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:56:09] [Thread-39/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:56:18] [Server thread/WARN]: XxBrayan57Xx was kicked for floating too long!
+[21:56:18] [Server thread/INFO]: XxBrayan57Xx lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:56:18] [Server thread/INFO]: XxBrayan57Xx left the game
+[21:56:23] [User Authenticator #14/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:56:23] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:58596] logged in with entity id 307189 at (-773.2872106009987, 94.52055980882645, 286.0496903849036)
+[21:56:23] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:56:23] [Thread-41/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:56:44] [Server thread/WARN]: XxBrayan57Xx was kicked for floating too long!
+[21:56:44] [Server thread/INFO]: XxBrayan57Xx lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:56:44] [Server thread/INFO]: XxBrayan57Xx left the game
+[21:56:47] [User Authenticator #15/INFO]: UUID of player XxBrayan57Xx is d4db567d-6dc0-4d88-bd74-96880a2263e5
+[21:56:48] [Server thread/INFO]: XxBrayan57Xx[/100.102.32.35:63924] logged in with entity id 307668 at (-786.6421221632858, 89.83500022441149, 255.39506102380716)
+[21:56:48] [Server thread/INFO]: XxBrayan57Xx joined the game
+[21:56:48] [Thread-43/INFO]: [STDOUT]: DAILIES REQUEST modVersion = 1.11.2-6
+[21:57:24] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[21:57:24] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Creative Mode]
+[21:57:24] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Creative Mode]
+[21:57:34] [Server thread/INFO]: ZzElegantzZ has just earned the achievement [Now find me a kraken...]
+[21:57:42] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:58:37] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:58:37] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[21:58:37] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[21:58:39] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[21:58:49] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:58:51] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:58:53] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[21:58:53] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Creative Mode]
+[21:58:53] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Creative Mode]
+[21:59:05] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[21:59:05] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[21:59:05] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[22:00:06] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -14.559980961247675,0.0,-6.126398735127168
+[22:00:06] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:07] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -14.664349540628791,0.0,-6.297241779831211
+[22:00:08] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -9.568276760262734,0.0,-4.846844630709484
+[22:00:08] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:09] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -9.75329156866701,0.0,-4.042925783718829
+[22:00:18] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:19] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:19] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:20] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:38] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:00:40] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:01:58] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:01:59] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -10.0,0.0,-4.0
+[22:02:00] [Server thread/INFO]: ZzElegantzZ was incinerated by a dragon
+[22:02:01] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 10.0,0.0,4.0
+[22:02:02] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:02:04] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:02:10] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:02:16] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Creative Mode]
+[22:03:19] [Server thread/INFO]: [ZzElegantzZ: Set own game mode to Survival Mode]
+[22:03:19] [Server thread/INFO]: [ZzElegantzZ: Set XxBrayan57Xx's game mode to Survival Mode]
+[22:03:19] [Server thread/INFO]: [ZzElegantzZ: Set rekudox's game mode to Survival Mode]
+[22:03:19] [Server thread/WARN]: ZzElegantzZ moved wrongly!
+[22:03:42] [Server thread/WARN]: Tried to over-fill a container
+[22:05:53] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 11.0,35.0,25.0
+[22:05:54] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 11.0,35.0,25.0
+[22:05:58] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:05:58] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -19.298022099199216,-35.0,-13.939231961643145
+[22:06:03] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 19.0,35.0,14.0
+[22:06:04] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 19.0,35.0,14.0
+[22:06:05] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 19.0,35.0,14.0
+[22:06:05] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 19.0,35.0,14.0
+[22:06:06] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -19.0,-35.0,-14.0
+[22:06:07] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -19.0,-35.0,-14.0
+[22:06:40] [Server thread/INFO]: [STDOUT]: help
+[22:06:51] [Server thread/INFO]: [STDOUT]: help
+[22:06:52] [Server thread/INFO]: [STDOUT]: help
+[22:06:52] [Server thread/INFO]: [STDOUT]: help
+[22:06:53] [Server thread/INFO]: [STDOUT]: help
+[22:06:53] [Server thread/INFO]: [STDOUT]: help
+[22:06:54] [Server thread/INFO]: [STDOUT]: help
+[22:06:54] [Server thread/INFO]: [STDOUT]: help
+[22:06:55] [Server thread/INFO]: [STDOUT]: help
+[22:06:55] [Server thread/INFO]: [STDOUT]: help
+[22:06:56] [Server thread/INFO]: [STDOUT]: help
+[22:06:57] [Server thread/INFO]: [STDOUT]: help
+[22:06:57] [Server thread/INFO]: [STDOUT]: help
+[22:06:57] [Server thread/WARN]: XxBrayan57Xx moved wrongly!
+[22:06:58] [Server thread/INFO]: [STDOUT]: help
+[22:06:59] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 10.837820297462258,35.0,25.979432756282904
+[22:06:59] [Server thread/WARN]: XxBrayan57Xx moved too quickly! 8.837820297462258,31.0,3.979432756282904
+[22:07:00] [Server thread/INFO]: [STDOUT]: help
+[22:07:00] [Server thread/WARN]: XxBrayan57Xx moved too quickly! -1.0,-47.0,-22.0
+[22:07:00] [Server thread/INFO]: [STDOUT]: help
+[22:07:01] [Server thread/INFO]: [STDOUT]: help
+[22:07:03] [Server thread/INFO]: [STDOUT]: help
+[22:07:05] [Server thread/INFO]: [STDOUT]: help
+[22:07:06] [Server thread/INFO]: [STDOUT]: help
+[22:07:22] [Server thread/INFO]: [STDOUT]: help
+[22:07:49] [Server thread/INFO]: [STDOUT]: help
+[22:07:50] [Server thread/INFO]: [STDOUT]: help
+[22:07:54] [Server thread/INFO]: [STDOUT]: help
+[22:07:57] [Server thread/INFO]: [STDOUT]: help
+[22:09:22] [Server thread/INFO]: [STDOUT]: help
+[22:09:23] [Server thread/INFO]: [STDOUT]: help
+[22:09:24] [Server thread/INFO]: [STDOUT]: help
+[22:09:25] [Server thread/INFO]: [STDOUT]: help
+[22:09:26] [Server thread/INFO]: [STDOUT]: help
+[22:09:27] [Server thread/INFO]: [STDOUT]: help
+[22:09:28] [Server thread/INFO]: [STDOUT]: help
+[22:09:29] [Server thread/INFO]: [STDOUT]: help
+[22:09:30] [Server thread/INFO]: [STDOUT]: help
+[22:13:56] [Server thread/WARN]: ZzElegantzZ moved too quickly! -2.7384614210038762,0.20326439933128881,9.815567762957016
